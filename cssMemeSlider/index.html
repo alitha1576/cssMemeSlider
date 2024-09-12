@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,43 +8,49 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/svg/Angry-Face.svg">
 </head>
+
 <body>
-   <main>
-    <div class="slider">
-        <div class="slider-img">
-            <div class="slide">
-                <img src="assets/img/dog.png" alt="dog-meme">
+    <main>
+        <div class="slider">
+            <div class="slider-img">
+                <div class="slide active" id="slide-1">
+                    <img src="assets/img/dog.png" alt="dog-meme">
+                    <p class="meme-description fade-in">My dog be like:</p>
+                </div>
+                <div class="slide" id="slide-2">
+                    <img src="assets/img/german.png" alt="german-meme">
+                    <p class="meme-description fade-in">My dog be like:</p>
+                </div>
+                <div class="slide" id="slide-3">
+                    <img src="assets/img/junior.png" alt="junior-meme">
+                    <p class="meme-description fade-in">My dog be like:</p>
+                </div>
+                <div class="slide" id="slide-4">
+                    <img src="assets/img/wolf.png" alt="wolf-meme">
+                    <p class="meme-description fade-in">My dog be like:</p>
+                </div>
             </div>
-            <div class="slide">
-                <img src="assets/img/german.png" alt="german-meme">
-            </div>
-            <div class="slide">
-                <img src="assets/img/junior.png" alt="junior-meme">
-            </div>
-            <div class="slide">
-                <img src="assets/img/wolf.jpg" alt="wolf-meme">
+            <div class="slider-bottom">
+                <div class="slider-controls">
+                    <div class="control control-1">
+                        <div class="circle-control checked"></div>
+                    </div>
+                    <div class="control control-2">
+                        <div class="circle-control"></div>
+                    </div>
+                    <div class="control control-3">
+                        <div class="circle-control"></div>
+                    </div>
+                    <div class="control control-4">
+                        <div class="circle-control"></div>
+                    </div>
+                    <div class="slider-controls">
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="slider-bottom">
-            <div class="slider-description">
-                <p class="meme-description"></p>
-            </div>
-            <slider-controls>
-                <div class="control">
-                    <div class="control-img"></div>
-                </div>
-                <div class="control">
-                    <div class="control-img"></div>
-                </div>
-                <div class="control">
-                    <div class="control-img"></div>
-                </div>
-                <div class="control">
-                    <div class="control-img"></div>
-                </div>
-            </slider-controls>
-        </div>
-    </div>
-   </main>
+    </main>
+    <script src="script.js"></script>
 </body>
+
 </html>
