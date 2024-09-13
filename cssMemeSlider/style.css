@@ -27,7 +27,6 @@ main {
     max-width: 100%;
 }
 
-
 .slider-img {
     white-space: nowrap;
     transition: 300ms;
@@ -86,4 +85,33 @@ div.circle-control.checked {
 .control:hover .circle-control {
     background-color: white; 
     border-color: white;
+}
+
+.slide img {
+    max-width: 100%;
+}
+
+@media (max-width: 320px) {
+.slide {
+    width: 80%;
+    margin: 0 10%;
+}
+
+.meme-description {
+    font-size: 1rem;
+    padding-left: 1%;
+    padding-top: 1rem;
+}
+
+.slider {
+    margin-bottom: 20vh;
+}
+
+.slider-bottom {
+    justify-content: center;
+}
+
+.slider-controls {
+    transform: translateY(-155%);
+}
 }
